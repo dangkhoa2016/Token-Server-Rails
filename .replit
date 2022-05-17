@@ -1,0 +1,9 @@
+run = ["rails", "server", "--binding=0.0.0.0"]
+
+entrypoint = "app/controllers/application_controller.rb"
+
+[env]
+PATH = "/home/runner/${REPL_SLUG}/bin"
+
+[packager]
+language = "ruby"

@@ -1,0 +1,8 @@
+load 'manual/replit_database.rb'
+x = ReplitDatabase.new
+x.put('sample_json', {x: 4, y: 'test', z: Date.current })
+
+
+load 'manual/accounts_helper.rb'
+z = AccountsHelper.new
+z.get_account('account-1.json')
